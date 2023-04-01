@@ -1,0 +1,12 @@
+Flask==2.1.0
+pandas==1.3.4
+requests==2.26.0
+
+
+# docker build -t gcr.io/[PROJECT_ID]/grafana:latest .
+# docker push gcr.io/[PROJECT_ID]/grafana:latest
+
+# kubectl apply -f grafana-deployment.yaml
+# kubectl apply -f grafana-service.yaml
+
+# kubectl apply -f K8s/grafana

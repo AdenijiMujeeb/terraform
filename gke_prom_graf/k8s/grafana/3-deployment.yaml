@@ -21,8 +21,8 @@ spec:
         runAsUser: 472
       containers:
       - name: grafana
-        image: grafana/grafana:9.2.3
-        imagePullPolicy: IfNotPresent
+        image: gcr.io/[PROJECT_ID]/grafana:latest  # (Replace [PROJECT_ID] with your Google Cloud project ID) # grafana/grafana:9.2.3
+        imagePullPolicy: Always   # IfNotPresent
         volumeMounts:
         - name: config
           mountPath: "/etc/grafana/grafana.ini"

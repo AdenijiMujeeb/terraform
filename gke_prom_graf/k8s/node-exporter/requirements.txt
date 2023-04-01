@@ -1,0 +1,10 @@
+# Example requirements.txt file for a Python-based Node Exporter
+prometheus-client==0.11.0
+psutil==5.8.0
+
+
+# docker build -t gcr.io/[PROJECT-ID]/node-exporter:v1 .
+
+# docker push gcr.io/[PROJECT-ID]/node-exporter:v1
+
+# kubectl apply -f K8s/node-exporter

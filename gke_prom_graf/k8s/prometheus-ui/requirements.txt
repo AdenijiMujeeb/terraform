@@ -1,0 +1,9 @@
+flask==2.0.2
+requests==2.26.0
+
+# docker build -t <your-image-name> .
+
+# docker tag <your-image-name> gcr.io/<your-project-id>/<your-image-name>
+# docker push gcr.io/<your-project-id>/<your-image-name>
+
+# kubectl apply -f K8s/prometheus-ui

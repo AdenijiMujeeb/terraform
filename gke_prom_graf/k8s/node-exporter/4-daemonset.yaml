@@ -25,7 +25,7 @@ spec:
         runAsUser: 65534
       containers:
         - name: node-exporter
-          image: public.ecr.aws/bitnami/node-exporter:1.4.0
+          image: gcr.io/[PROJECT-ID]/node-exporter:v1   # public.ecr.aws/bitnami/node-exporter:1.4.0
           imagePullPolicy: IfNotPresent
           args:
             - --path.procfs=/host/proc
